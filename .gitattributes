@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.resS filter=lfs diff=lfs merge=lfs -text
+Project/Build/endless-runner_Data/sharedassets0.assets.resS filter=lfs diff=lfs merge=lfs -text
